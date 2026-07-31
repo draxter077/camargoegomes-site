@@ -210,9 +210,9 @@ window.construct = async function construct(d){
 }
 
 window.api_url = "https://ace-chimp-merry.ngrok-free.app/"
-window.whatsapp_url = "https://wa.me/"
-window.instagram_url = "https://www.instagram.com/"
-window.linkedin_url = "https://www.linkedin.com/"
+window.whatsapp_url = "https://wa.me/554195221414"
+window.instagram_url = "https://www.instagram.com/camargoegomesadvogados/"
+window.linkedin_url = "https://www.linkedin.com/company/cgadvogados/"
 axios.defaults.headers.common["ngrok-skip-browser-warning"] = "69420"
 
 construct()
