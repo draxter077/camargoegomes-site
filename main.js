@@ -73,6 +73,7 @@ const resetCss = `
     	--colorWhite:rgb(245,245,245);
     	--colorBlack:rgb(20,20,20);
         --colorBluePh:rgb(56,182,255);
+        --colorOrange:rgb(251,108,58);
         --colorGreenWhatsApp:rgb(37,211,102);
     }
     @font-face{
@@ -80,10 +81,15 @@ const resetCss = `
         font-display:swap;
         src:url("https://www.ph.net.br/assets/font/Garet-Book.otf");
     }
+    @font-face{
+        font-family:"Montserrat";
+        font-display:swap;
+        src:url("https://wor.ph.net.br/assets/font/Montserrat-Regular.ttf");
+    }
     body{
     	box-sizing:border-box;
-    	font-family:system-ui;
-    	background:var(--colorBlack);
+    	font-family:"Montserrat";
+    	background:var(--colorWhite);
     	cursor:default;
 	    user-select:none;
         line-height:1.3;

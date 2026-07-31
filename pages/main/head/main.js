@@ -13,9 +13,9 @@ export default function head(){
             align-items:center;
             justify-content:space-around;
             width:100%;
-            padding:10px 15px;
-            background:green;
-            box-shadow:0px 0px 3px 0px green;
+            padding:1% 20px;
+            background:var(--colorWhite);
+            box-shadow:0px 0px 3px 0px var(--colorOrange);
         }
         :responsive{
             flex-direction:column;

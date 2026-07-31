@@ -9,7 +9,7 @@ export default function link(href, t){
             transition:all 0.5s;
         }
         :hover{
-            border-bottom:1px solid var(--colorBlue);
+            border-bottom:1px solid var(--colorBlack);
         }`
 
     const link = cE("a",style)

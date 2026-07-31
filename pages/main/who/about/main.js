@@ -9,6 +9,7 @@ export default function about(){
             align-items:center;
             justify-content:space-around;
             width:90%;
+            padding:1% 0px;
         }
         :responsive{
             flex-direction:column;

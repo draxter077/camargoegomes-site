@@ -16,8 +16,11 @@ export default function links(){
         }`
 
     const links = cE("div",style)
-    links.appendChild(link("Sobre", "who"))
-    links.appendChild(link("Soluções", "services"))
-    links.appendChild(link("FAQ", "faq"))
+    links.appendChild(link("Compromisso", ""))
+    links.appendChild(link("Soluções", ""))
+    links.appendChild(link("Casos", ""))
+    links.appendChild(link("Equipe", ""))
+    links.appendChild(link("Publicações", ""))
+    links.appendChild(link("Contato", ""))
     return(links)
 }
