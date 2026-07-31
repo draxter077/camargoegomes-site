@@ -17,6 +17,10 @@ export default function option(l,url,t){
         }
         :hover{
             box-shadow:0px 0px 5px 3px var(--colorOrange);
+        }
+        :responsive{
+            width:48%;
+            margin:5px 0px;
         }`
 
     const option = cE("a",style)

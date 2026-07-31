@@ -6,6 +6,9 @@ export default function copyright(){
             text-align:center;
             color:white;
             margin:20px 0px 0px 0px;
+        }
+        :responsive{
+            font-size:12px;
         }`
 
     const copyright = cE("div",style)

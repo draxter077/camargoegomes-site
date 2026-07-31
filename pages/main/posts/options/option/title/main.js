@@ -9,6 +9,9 @@ export default function title(t){
             height:100%;
             display:flex;
             flex-direction:column-reverse;
+        }
+        :responsive{
+            font-size:18px;
         }`
 
     const title = cE("div",style)

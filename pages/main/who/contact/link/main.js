@@ -15,6 +15,9 @@ export default function link(i,l){
         }
         :hover{
             background:var(--colorBlack);
+        }
+        :responsive{
+            height:50px;
         }`
 
     const link = cE("a",style)

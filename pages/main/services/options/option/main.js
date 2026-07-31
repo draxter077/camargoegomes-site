@@ -9,10 +9,14 @@ export default function option(url,t){
             justify-content:center;
             width:33.3%;
             aspect-ratio:2;
-            background-image: url('${url}'); 
-            background-position: center; 
-            background-repeat: no-repeat; 
-            background-size: cover;    
+            background-image:url('${url}'); 
+            background-position:center; 
+            background-repeat:no-repeat; 
+            background-size:cover;    
+        }
+        :responsive{
+            width:50%;
+            aspect-ratio:1;
         }`
 
     const option = cE("div",style)

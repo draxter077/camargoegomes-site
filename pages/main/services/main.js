@@ -12,7 +12,7 @@ export default function services(){
         }
         :responsive{
             width:95%;
-            margin:20% 0px 0px 0px;
+            margin:10% 0px 0px 0px;
         }`
 
     const services = cE("div",style)

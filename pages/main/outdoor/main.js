@@ -11,8 +11,8 @@ export default function outdoor(){
             line-height:1.0;
         }
         :responsive{
-            width:95%;
             padding:20% 0px;
+            font-size:40px;
         }`
 
     const outdoor = cE("div",style)

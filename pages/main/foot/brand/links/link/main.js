@@ -9,6 +9,9 @@ export default function link(src, href){
         }
         :hover{
             transform:scale(1.1);
+        }
+        :responsive{
+            height:28px;
         }`
 
     const link = cE("a",style)

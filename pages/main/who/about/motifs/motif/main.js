@@ -8,6 +8,10 @@ export default function motif(t,d){
             flex-direction:column;
             align-items:center;
             width:15%;
+        }
+        :responsive{
+            width:48%;
+            margin:10px 0px;
         }`
 
     const motif = cE("div",style)

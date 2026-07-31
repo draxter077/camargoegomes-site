@@ -4,8 +4,8 @@ export default function logo(){
             height:50px;
         }
         :responsive{
-            height:75px;
-            margin:2.5% 0px;
+            height:40px;
+            margin:1.5% 0px;
         }`
 
     const logo = cE("img",style)

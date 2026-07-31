@@ -6,6 +6,7 @@ export default function motifs(){
             display:flex;
             flex-direction:row;
             justify-content:space-around;
+            flex-wrap:wrap;
             margin:2% 0px 0px;
         }`
 

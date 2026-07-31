@@ -7,7 +7,7 @@ export default function about(){
             display:flex;
             flex-direction:column;
             width:90%;
-            padding:2.5% 0px;
+            padding:5% 0px 0px;
         }`
 
     const about = cE("div",style)

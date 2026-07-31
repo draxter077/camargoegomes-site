@@ -5,6 +5,10 @@ export default function logo(){
             border:2px solid var(--colorWhite);
             background:var(--colorWhite);
             padding:10px 15px;
+        }
+        :responsive{
+            height:50px;
+            padding:5px;
         }`
 
     const logo = cE("img",style)
