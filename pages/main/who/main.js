@@ -1,5 +1,5 @@
 import about from "./about/main.js"
-import data from "./data/main.js"
+import contact from "./contact/main.js"
 
 export default function who(){
     let style = `
@@ -12,7 +12,7 @@ export default function who(){
 
     const who = cE("div",style)
     who.id = "who"
+    who.appendChild(contact())
     who.appendChild(about())
-    who.appendChild(data())
     return(who)
 }

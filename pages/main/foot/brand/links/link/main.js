@@ -5,7 +5,7 @@ export default function link(src, href){
         {
             height:32px;
             margin:0px 0px 0px 30px;
-            transition:all 0.5s;
+            transition:all 0.1s;
         }
         :hover{
             transform:scale(1.1);

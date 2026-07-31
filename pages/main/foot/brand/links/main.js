@@ -9,6 +9,7 @@ export default function links(){
         }`
 
     const links = cE("div",style)
+    links.appendChild(link("./assets/linkedin.png",linkedin_url))
     links.appendChild(link("./assets/whatsapp.png",whatsapp_url))
     links.appendChild(link("./assets/instagram.png",instagram_url))
     return(links)

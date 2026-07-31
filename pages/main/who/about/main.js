@@ -1,23 +1,17 @@
-import text from "./text/main.js"
-import logo from "./logo/main.js"
+import title from "./title/main.js"
+import motifs from "./motifs/main.js"
 
 export default function about(){
     let style = `
         {
             display:flex;
-            flex-direction:row;
-            align-items:center;
-            justify-content:space-around;
-            width:90%;
-            padding:1% 0px;
-        }
-        :responsive{
             flex-direction:column;
-            width:95%;
+            width:90%;
+            padding:2.5% 0px;
         }`
 
     const about = cE("div",style)
-    about.appendChild(text())
-    about.appendChild(logo())
+    about.appendChild(title())
+    about.appendChild(motifs())
     return(about)
 }

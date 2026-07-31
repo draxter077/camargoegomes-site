@@ -2,8 +2,7 @@ import head from "./head/main.js"
 import outdoor from "./outdoor/main.js"
 import who from "./who/main.js"
 import services from "./services/main.js"
-import method from "./method/main.js"
-import faq from "./faq/main.js"
+import posts from "./posts/main.js"
 import foot from "./foot/main.js"
 import ph from "./ph/main.js"
 
@@ -55,8 +54,7 @@ export default function main(){
     main.appendChild(outdoor())
     main.appendChild(who())
     main.appendChild(services())
-    main.appendChild(method())
-    main.appendChild(faq())
+    main.appendChild(posts())
     main.appendChild(foot())
     main.appendChild(ph())
     return(main)

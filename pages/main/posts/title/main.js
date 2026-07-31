@@ -6,13 +6,12 @@ export default function title(){
             background:var(--colorOrange);
             width:100%;
             padding:10px 15px;
-            text-align:right;
         }
         :responsive{
             text-align:center;
         }`
 
     const title = cE("div",style)
-    title.innerHTML = "Com experiência em diversas áreas"
+    title.innerHTML = "Nossas últimas atualizações"
     return(title)
 }

@@ -1,14 +1,10 @@
 export default function outdoor(){
     let style = `
         {
-
-            display:flex;
-            flex-direction:column;
-            align-items:center;
-            width:90%;
-            text-align:center;
-            padding:5% 0px;
+            width:100%;
+            padding:5% 0px 2.5%;
             background:var(--colorOrange);
+            text-align:center;
             font-size:50px;
             color:var(--colorWhite);
             font-weight:900;
@@ -20,6 +16,6 @@ export default function outdoor(){
         }`
 
     const outdoor = cE("div",style)
-    outdoor.innerHTML = "Uma nova<br>advocacia."
+    outdoor.innerHTML = `Uma nova<br>advocacia.`
     return(outdoor)
 }

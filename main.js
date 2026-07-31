@@ -84,7 +84,7 @@ const resetCss = `
     @font-face{
         font-family:"Montserrat";
         font-display:swap;
-        src:url("https://wor.ph.net.br/assets/font/Montserrat-Regular.ttf");
+        src:url("./assets/font/Montserrat-Regular.ttf");
     }
     body{
     	box-sizing:border-box;
@@ -212,6 +212,7 @@ window.construct = async function construct(d){
 window.api_url = "https://ace-chimp-merry.ngrok-free.app/"
 window.whatsapp_url = "https://wa.me/"
 window.instagram_url = "https://www.instagram.com/"
+window.linkedin_url = "https://www.linkedin.com/"
 axios.defaults.headers.common["ngrok-skip-browser-warning"] = "69420"
 
 construct()
